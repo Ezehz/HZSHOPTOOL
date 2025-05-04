@@ -1,17 +1,59 @@
-<div align="center">
-  <img src="banner.jpg" width="80%" alt="HZ SHOP Tool Banner">
-  <h1>HZ TOOL CPM</h1>
-  <p>Cheat Tool สำหรับ Car Parking Multiplayer บนมือถือ</p>
-</div>
+✦✧✦✧✦ HZSHOPTOOL - Termux & iOS Setup ✦✧✦✧✦
 
----
+ติดตั้งง่าย ใช้งานไว สำหรับคนเล่น Car Parking Multiplayer!
 
-## ⚙️ ติดตั้งบน Android (Termux)
+━━━━━━━━━━━━━━━━━━━━
+🟢 วิธีติดตั้งบน Android (Termux)
+━━━━━━━━━━━━━━━━━━━━
 
-```bash
+🔹 อัปเดตแพ็กเกจ:
 pkg update && pkg upgrade -y
-pkg install git python -y
-git clone https://github.com/ชื่อของเบียร์/HZToolCPM.git
-cd HZToolCPM
+
+🔹 ติดตั้ง Git:
+pkg install git
+
+🔹 ติดตั้ง Python:
+pkg install python
+
+🔹 Clone โปรเจกต์:
+git clone https://github.com/hzshop88/HZSHOPTOOL.git
+
+🔹 เข้าโฟลเดอร์โปรเจกต์:
+cd HZSHOPTOOL
+
+🔹 ติดตั้ง dependencies:
 pip install -r requirements.txt
+
+🔹 เริ่มใช้งาน:
 python main.py
+
+━━━━━━━━━━━━━━━━━━━━
+🍏 วิธีติดตั้งบน iOS (ผ่านแอป ISH)
+━━━━━━━━━━━━━━━━━━━━
+
+🔹 ติดตั้ง Git:
+apk add git
+
+🔹 ติดตั้ง Python:
+apk add python3
+
+🔹 ติดตั้ง pip:
+apk add py3-pip
+
+🔹 Clone โปรเจกต์:
+git clone https://github.com/hzshop88/HZSHOPTOOL.git
+
+🔹 เข้าโฟลเดอร์โปรเจกต์:
+cd HZSHOPTOOL
+
+🔹 ติดตั้ง dependencies:
+pip install -r requirements.txt
+
+🔹 เริ่มใช้งาน:
+python3 main.py
+
+━━━━━━━━━━━━━━━━━━━━
+🚀 พร้อมบวก CPM ได้ทุกระบบ Android / iOS!
+━━━━━━━━━━━━━━━━━━━━
+
+พัฒนาโดย: HZSHOP (เบียร์)
